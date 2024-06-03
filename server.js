@@ -10,10 +10,10 @@ const port = 3001;
 
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'sql12.freemysqlhosting.net',
-  user: 'sql12711372',
-  password: 'MkJ88nPGsm',
-  database: 'sql12711372'
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'testdb'
 });
 
 app.use(cors());

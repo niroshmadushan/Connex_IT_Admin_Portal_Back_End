@@ -7,10 +7,10 @@ const port = 5000;
 
 //server information
 const connection = mysql.createConnection({
-  host: 'sql12.freemysqlhosting.net',
-  user: 'sql12711372',
-  password: 'MkJ88nPGsm',
-  database: 'sql12711372'
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'testdb'
 });
 
 
