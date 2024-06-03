@@ -10,7 +10,7 @@ const port = 3001;
 
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'localhost',
+  host: 'https://exciting-genuinely-antelope.ngrok-free.app',
   user: 'root',
   password: '',
   database: 'testdb'
